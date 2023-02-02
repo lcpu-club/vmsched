@@ -1,0 +1,15 @@
+listen: :12345
+lxd:
+  address: https://domain.of.your.lxd.server.tld:8443
+  client-cert: |
+    -----BEGIN CERTIFICATE-----
+    // Your certificate here
+    -----END CERTIFICATE-----
+  client-key: |
+    -----BEGIN PRIVATE KEY-----
+    // Your private key here
+    -----END PRIVATE KEY-----
+database:
+  driver: sqlite3
+  dsn: "./dev-test/test.db"
+cron-interval: 15s

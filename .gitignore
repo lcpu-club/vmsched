@@ -13,3 +13,13 @@
 
 # Dependency directories (remove the comment below to include it)
 # vendor/
+
+/test.go
+/test.o
+/test.js
+/spice-html5/
+/dev-test/
+/configure_dev
+/upload_instance_type.sh
+/vmsched
+/package-lock.json
